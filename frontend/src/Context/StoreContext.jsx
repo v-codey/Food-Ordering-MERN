@@ -1,9 +1,10 @@
 import { createContext, useEffect, useState } from "react";
 export const StoreContext = createContext(null);
 import axios from "axios"
+
 const StoreContextProvider = (props) => {
   const[cartItems,setCartItems]= useState({})
-  const url="http://localhost:4000";
+  const url="https://food-order-backend-fqp4.onrender.com";
   const[token,setToken]=useState("")
   const[food_list,Setfood_list]=useState([])
   const addToCart= async(itemId)=>{
