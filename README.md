@@ -3,8 +3,9 @@ https://youtu.be/DBMPXJJfQEA?si=EEet_Exe3_HzWmUt you can refer this video
 create an .env file in backend folder
 .env
 MONGODB_URI="YOUR_MONOGODB_URL"
-JWT_SECRET="ANY_RANDOM_KEY"
-STRIPE_SECRET_KEY="YOUR_STRIPE_SECRET_KEY"
+Live link Url - https://food-ordering-mern-kl4s.onrender.com
+Admin Link Url - https://food-ordering-admin-dpcf.onrender.com/add
+
 
 Needed three integrated terminal
 TO RUN SERVER-needed three integrated terminal
